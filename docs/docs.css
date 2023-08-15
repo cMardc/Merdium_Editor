@@ -1,0 +1,11 @@
+.feature {
+    border-style: solid;
+    border-radius: 10px;
+    width: 120;
+    height: 120;
+}
+
+#darkbg {
+    background-color: #222222;
+    color: whitesmoke;
+}
