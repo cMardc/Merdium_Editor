@@ -10,6 +10,7 @@ import json
 
 CONFIG_FOLDER = "config"
 
+
 def save_settings():
     settings = {
         "font_color": text_area.cget("fg"),
@@ -283,5 +284,9 @@ window.bind("{", addTwo)
 window.bind("[", addThree)
 
 load_settings()
+
+p1 = tkinter.PhotoImage(file = 'icon.png')
+
+window.iconphoto(False, p1);
 
 window.mainloop()
